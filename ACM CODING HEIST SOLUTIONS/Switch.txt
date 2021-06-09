@@ -1,0 +1,28 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        string  a,b;
+        cin>>a>>b;
+        vector<int>v;
+        int i=0;
+        while(a[i]!='\0'){
+        
+            if(a[i]!=b[i]){
+                cout<<1;
+            }else{
+                cout<<0;
+            }
+            i++;
+        }
+        cout<<"\n";   
+    }  
+    return 0;
+}
